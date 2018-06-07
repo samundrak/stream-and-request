@@ -1,0 +1,19 @@
+{
+  "name": "advance-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ftp": "ftp-srv ftp://0.0.0.0:9876 ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "basicauth-middleware": "^3.0.0",
+    "express": "^4.16.3",
+    "ftp-srv": "^2.19.1",
+    "request": "^2.87.0"
+  }
+}
